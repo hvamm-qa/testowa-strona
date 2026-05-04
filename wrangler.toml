@@ -1,0 +1,5 @@
+name = "revive-the-spark"
+pages_build_output_dir = "dist"
+
+[vars]
+# Tu możesz dodać zmienne środowiskowe jeśli będą potrzebne
