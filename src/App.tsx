@@ -23,6 +23,11 @@ export default function App() {
   const [language, setLanguage] = useState<Language>('pl');
   const [theme, setTheme] = useState<Theme>('dark');
 
+  // Set document title and update meta
+  useEffect(() => {
+    document.title = "Revive the Spark";
+  }, []);
+
   // Smooth scroll implementation for anchor links
   useEffect(() => {
     const handleAnchorClick = (e: MouseEvent) => {
