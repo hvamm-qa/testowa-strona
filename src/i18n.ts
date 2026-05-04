@@ -1,0 +1,145 @@
+
+export type Language = 'pl' | 'en';
+
+export const translations = {
+  pl: {
+    nav: {
+      projects: 'PROJEKTY',
+      investors: 'INWESTORZY',
+      creators: 'TWÓRCY',
+      contact: 'KONTAKT',
+    },
+    hero: {
+      title1: 'TO MY JESTEŚMY',
+      title2: 'ISKRĄ',
+      title3: 'TO MY WZNIECAMY',
+      title4: 'PŁOMIEŃ',
+      description: 'Nie gonimy za efekciarstwem ani tanimi sztuczkami. szukamy iskry - tego niezapomnianego momentu, gdy rozgrywka wykracza poza utarte schematy i odciska się w pamięci. tworzymy tam, gdzie emocje spajają się z rzemiosłem. to jest nasza droga.',
+      ctaProjects: 'Zobacz projekty',
+      ctaContact: 'Kontakt',
+    },
+    projects: {
+      title: 'PROJEKTY',
+      showDetails: 'POKAŻ SZCZEGÓŁY',
+      hideDetails: 'UKRYJ',
+      status: 'W PRODUKCJI',
+    },
+    investors: {
+      title: 'DLA INWESTORÓW',
+      desc1: 'W kuźni Revive the Spark wykuwamy światy, które zostają z graczami na długo. Możesz stać się częścią spółki, zainwestować bezpośrednio w wybrany projekt lub współtworzyć z nami działalność wydawniczą, wspierając utalentowanych twórców.',
+      desc2: 'Inwestujesz w zespół z pasją, który wie, czego chce i ma odwagę po to sięgnąć. Wierzysz w odważne pomysły i rozrywkę, która budzi prawdziwe emocje? Dołącz do naszej podróży.',
+      whyUs: 'DLACZEGO MY?',
+    },
+    creators: {
+      title: 'TWÓRCY',
+      desc1: 'Masz pomysł na grę, która poruszy serca graczy? Wierzymy w takie historie. Revive the Spark to miejsce, w którym niezależni twórcy otrzymują realne wsparcie - produkcyjne, finansowe i wydawnicze.',
+      quote: 'Tworzymy studio, które wspiera Twórców.',
+      visionTitle: 'TWOJA WIZJA, NASZE WSPARCIE',
+    },
+    contact: {
+      title: 'DAJ',
+      spark: 'ISKRĘ',
+      location: 'LOKALIZACJA',
+      email: 'E-MAIL',
+      lead: 'LEAD',
+      formName: 'IMIĘ I NAZWISKO',
+      formEmail: 'ADRES E-MAIL',
+      formMessage: 'TREŚĆ WIADOMOŚCI',
+      formConsent: 'ZGADZAM SIĘ Z',
+      privacyPolicy: 'POLITYKĄ PRYWATNOŚCI',
+      send: 'WYŚLIJ WIADOMOŚĆ',
+    },
+    cookies: {
+      title: 'POLITYKA COOKIES',
+      text: 'Wyrażam zgodę na przetwarzanie przez Dawida Ciślaka moich danych osobowych pozyskanych przy użyciu plików „cookie”. Wyrażenie zgody jest dobrowolne. Możesz w dowolnym momencie wycofać tę zgodę.',
+      accept: 'AKCEPTUJĘ',
+    },
+    privacy: {
+      title: 'Polityka prywatności',
+      close: 'Zamknij',
+      cookiesTitle: 'Treść zgody na cookies',
+      cookiesDesc: 'Wyrażam zgodę na przetwarzanie przez Dawida Ciślaka prowadzącego działalność pod adresem ul. Ignacego Mościckiego 1, 24-110 Puławy, moich danych osobowych pozyskanych przy użyciu plików „cookie”. Wyrażenie zgody jest dobrowolne. Przyjmuję do wiadomości, że mogę w dowolnym momencie wycofać tę zgodę. Wycofanie zgody nie wpływa na zgodność z prawem przetwarzania danych, którego dokonano na podstawie zgody przed jej wycofaniem.',
+      infoTitle: 'Obowiązki informacyjne',
+      info1: 'Administratorem Państwa danych osobowych jest Dawid Ciślak z siedzibą przy ul. Ignacego Mościckiego 1, 24-110 Puławy, e-mail: contact@revivethespark.studio .',
+      info2: 'Dane osobowe użytkowników przetwarzane są na podstawie dobrowolnie udzielonej zgody. Brak zgody lub jej cofnięcie może uniemożliwić otrzymywanie informacji marketingowych i ofert handlowych.',
+      info3: 'Formularz kontaktowy znajdujący się na stronie internetowej służy do przesyłania zapytań drogą mailową i nie zapisuje żadnych danych w bazie danych. Dane przesyłane za pomocą formularza trafiają bezpośrednio na adres: contact@revivethespark.studio i są przetwarzane wyłącznie w celu obsługi zapytania.',
+      info4: 'Do danych osobowych mogą mieć dostęp wyłącznie upoważnione osoby oraz podmioty przetwarzające dane na podstawie umów powierzenia.',
+      info5: 'Użytkownik ma prawo do: dostępu do swoich danych, ich sprostowania, usunięcia („prawo do bycia zapomnianym”), ograniczenia przetwarzania, przenoszenia danych, wniesienia sprzeciwu wobec przetwarzania, wycofania zgody w dowolnym momencie.',
+      info6: 'Użytkownik ma prawo wniesienia skargi do Prezesa Urzędu Ochrony Danych Osobowych.',
+      retentionTitle: 'Okres przechowywania danych',
+      retention1: 'Dane przetwarzane na podstawie przepisów prawa będą przechowywane przez okres realizacji obowiązków wynikających z tych przepisów.',
+      retention2: 'Dane przetwarzane na podstawie uzasadnionego interesu administratora – maksymalnie przez 5 lat.',
+      retention3: 'Dane przetwarzane na podstawie zgody – do momentu jej wycofania.'
+    }
+  },
+  en: {
+    nav: {
+      projects: 'PROJECTS',
+      investors: 'INVESTORS',
+      creators: 'CREATORS',
+      contact: 'CONTACT',
+    },
+    hero: {
+      title1: 'WE ARE THE',
+      title2: 'SPARK',
+      title3: 'WE IGNITE THE',
+      title4: 'FLAME',
+      description: 'We don\'t chase flashiness or cheap tricks. We search for the spark - that unforgettable moment when gameplay goes beyond established patterns and imprints itself in memory. We create where emotions merge with craftsmanship. This is our way.',
+      ctaProjects: 'View Projects',
+      ctaContact: 'Contact',
+    },
+    projects: {
+      title: 'PROJECTS',
+      showDetails: 'SHOW DETAILS',
+      hideDetails: 'HIDE',
+      status: 'IN PRODUCTION',
+    },
+    investors: {
+      title: 'FOR INVESTORS',
+      desc1: 'In the forge of Revive the Spark, we craft worlds that stay with players for a long time. You can become a part of the company, invest directly in a selected project, or co-create publishing activities with us, supporting talented creators.',
+      desc2: 'You invest in a passionate team that knows what it wants and has the courage to reach for it. Do you believe in bold ideas and entertainment that awakens real emotions? Join our journey.',
+      whyUs: 'WHY US?',
+    },
+    creators: {
+      title: 'CREATORS',
+      desc1: 'Got an idea for a game that will touch players\' hearts? We believe in such stories. Revive the Spark is a place where independent creators receive real support - production, financial, and publishing.',
+      quote: 'We create a studio that supports Creators.',
+      visionTitle: 'YOUR VISION, OUR SUPPORT',
+    },
+    contact: {
+      title: 'GIVE THE',
+      spark: 'SPARK',
+      location: 'LOCATION',
+      email: 'E-MAIL',
+      lead: 'LEAD',
+      formName: 'NAME & SURNAME',
+      formEmail: 'EMAIL ADDRESS',
+      formMessage: 'MESSAGE CONTENT',
+      formConsent: 'I AGREE TO THE',
+      privacyPolicy: 'PRIVACY POLICY',
+      send: 'SEND MESSAGE',
+    },
+    cookies: {
+      title: 'COOKIES POLICY',
+      text: 'I consent to the processing of my personal data obtained through "cookies" by Dawid Ciślak. Giving consent is voluntary. You can withdraw this consent at any time.',
+      accept: 'ACCEPT',
+    },
+    privacy: {
+      title: 'Privacy Policy',
+      close: 'Close',
+      cookiesTitle: 'Cookie Content Consent',
+      cookiesDesc: 'I consent to the processing of my personal data obtained using "cookies" by Dawid Ciślak, conducting business at ul. Ignacego Mościckiego 1, 24-110 Puławy. Giving consent is voluntary. I acknowledge that I can withdraw this consent at any time. Withdrawal of consent does not affect the lawfulness of the data processing carried out based on consent before its withdrawal.',
+      infoTitle: 'Information Obligations',
+      info1: 'The administrator of your personal data is Dawid Ciślak with its registered office at ul. Ignacego Mościckiego 1, 24-110 Puławy, e-mail: contact@revivethespark.studio .',
+      info2: 'Users\' personal data are processed on the basis of voluntarily granted consent. Lack of consent or its withdrawal may prevent receiving marketing information and commercial offers.',
+      info3: 'The contact form located on the website is used to send inquiries via e-mail and does not save any data in the database. Data sent using the form go directly to the address: contact@revivethespark.studio and are processed exclusively to handle the inquiry.',
+      info4: 'Only authorized persons and entities processing data on the basis of entrustment agreements may have access to personal data.',
+      info5: 'The user has the right to: access their data, rectify them, delete them ("right to be forgotten"), restrict processing, transfer data, object to processing, withdraw consent at any time.',
+      info6: 'The user has the right to lodge a complaint with the President of the Personal Data Protection Office.',
+      retentionTitle: 'Data Retention Period',
+      retention1: 'Data processed on the basis of legal provisions will be stored for the period of fulfillment of obligations resulting from these provisions.',
+      retention2: 'Data processed on the basis of the legitimate interest of the administrator – for a maximum of 5 years.',
+      retention3: 'Data processed on the basis of consent – until its withdrawal.'
+    }
+  }
+};
